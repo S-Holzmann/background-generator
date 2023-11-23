@@ -1,13 +1,13 @@
 body {
   margin-top: 20vh;
-  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));
+  background: linear-gradient(to right, rgb(249, 1, 1), rgb(255, 255, 0));
   font-family: "Raleway", sans-serif;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
   letter-spacing: 0.5em;
   top: 15%;
   cursor: default;
-  width: 100%;
+  max-width: 100%;
 }
 
 h1 {
@@ -49,7 +49,7 @@ h3 {
 
 @media (max-width: 600px) {
   body {
-    margin-top: 10vh;
+    margin-top: 15vh;
     letter-spacing: 0.1em;
   }
 
