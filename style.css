@@ -46,3 +46,25 @@ h3 {
   text-transform: none;
   letter-spacing: 0.01em;
 }
+
+@media (max-width: 600px) {
+  body {
+    margin-top: 10vh;
+    letter-spacing: 0.1em;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 3vh;
+  }
+
+  button {
+    margin-top: 2vh;
+    font-size: 0.7em;
+  }
+
+  h2,
+  h3 {
+    margin-top: 3vh;
+  }
+}
