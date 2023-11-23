@@ -1,48 +1,48 @@
 body {
-	margin-top: 20vh;
-	background: linear-gradient(to right, rgb(249, 1, 1), rgb(255, 255, 0));
-	font: "Raleway", sans-serif;
-	color: rgba(0,0,0,.5);
-	text-align: center;
-	letter-spacing: .5em;
-	top: 15%;
-	cursor: default;
+  margin-top: 20vh;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 255, 0));
+  font-family: "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  letter-spacing: 0.5em;
+  top: 15%;
+  cursor: default;
 }
 
 h1 {
-	font:600 2em "Raleway", sans-serif;
-	color: rgba(0, 0, 0, .5);
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .5em;
-	width: 100%;
-	margin-bottom: 10vh;
+  font: 600 2em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+  margin-bottom: 10vh;
+  width: 80vw;
 }
 
-input {
-	cursor: pointer;
+input, button {
+  cursor: pointer;
 }
 
 button {
-	margin-top: 5vh;
-	border-radius: 0.5em;
-	padding: 8px;
-	border: 1px solid;
-	background-color: rgba(255, 255, 255, .5);
-	font:600 0.9em "Raleway", sans-serif;
-	color: rgba(0,0,0,.5);
-	text-transform: uppercase;
-	cursor: pointer;
+  margin-top: 5vh;
+  border-radius: 0.5em;
+  padding: 8px;
+  border: 1px solid;
+  background-color: rgba(255, 255, 255, 0.5);
+  font: 600 0.9em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
 }
 
 h2 {
-	margin-top: 10vh;
+  margin-top: 10vh;
 }
 
 h3 {
-	font:900 1em "Raleway", sans-serif;
-	color: rgba(0, 0, 0, .5);
-	text-align: center;
-	text-transform: none;
-	letter-spacing: 0.01em;
+  font: 900 1em "Raleway", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
 }
